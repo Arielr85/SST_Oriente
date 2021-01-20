@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SST-Palmar del Oriente</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- header -->
+   <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/1x/Recurso 2.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Descargas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Contactos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+   </header>
+    <!-- /header -->
+    <!-- Contenido -->
+    <main>
+        <section>
+            <div class="container mt-4">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <p><i class="icon ion-md-clipboard"></i> Información</p>
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Esta seccion contendra toda la informacion de:</strong> De odjetivos, integrantes con sus roles y programacion <code>En mis tiempos libres 😅</code>.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          <p><i class="icon ion-md-barcode"></i>  Carnet</p>
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div>
+                                <img src="img/Barner/4304360.gif" alt="">
+                            </div>
+                          <strong>Contendra las propuesta de Diseño del carnet y el boton de descarga </strong> Se estara actualizanda para que cada usuario descarge su carnet y varias funciones a evaluar
+                          <div class="mt-4">
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#CarDescarga">Descargar</button>
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <p><i class="icon ion-md-save"></i>  Instaladores</p>
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Contiene el instador del programa y el archivo del proyecto</strong> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <p><i class="icon ion-md-pin"></i> Mapa</p>
+                      </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        </section>
+    </main>
+    <!-- /Contenido -->
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+<!-- Modal -->
+<div class="modal fade" id="CarDescarga" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Descargar Carnet</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <table class="table table-success table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Descargar</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Blanca Martinez</td>
+                    <td><button type="button" class="btn btn-danger"><a href="https://drive.google.com/file/d/1AZqUb5NhFmjwp56FUQEtn4_sqRhnbAVi/view?usp=sharing" target="_blank"><i class="icon ion-md-archive"></i>  Descargar</a></button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Isabel Florez</td>
+                    <td><button type="button" class="btn btn-danger"><a href="https://drive.google.com/file/d/1Ama368KmReT5g_0lxY_29Ot4lUNuVhIa/view?usp=sharing"  target="_blank"><i class="icon ion-md-archive"></i>  Descargar</a></button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Leidy Parra</td>
+                    <td><button type="button" class="btn btn-danger"><a href="https://drive.google.com/file/d/1XeG9SweMrvnfR_iidXc6EOslxeENj7d-/view?usp=sharing"  target="_blank"><i class="icon ion-md-archive"></i>  Descargar</a></button></td>
+                  </tr>
+                  <th scope="row">4</th>
+                    <td>Maria Peña</td>
+                    <td><button type="button" class="btn btn-danger"><a href="https://drive.google.com/file/d/14aNjkEBOFFe0CCkWv7xuh5qzx3km-cVc/view?usp=sharing"  target="_blank"><i class="icon ion-md-archive"></i>  Descargar</a></button></td>
+                  </tr>
+                  <th scope="row">5</th>
+                    <td>Nubia Mendez</td>
+                    <td><button type="button" class="btn btn-danger"><a href="https://drive.google.com/file/d/10FmebI56YQdQ84irK4l1z8mIXcbWG0QC/view?usp=sharing"  target="_blank"><i class="icon ion-md-archive"></i>  Descargar</a></button></td>
+                  </tr>
+                  <th scope="row">6</th>
+                    <td>Veronica Pulgarin</td>
+                    <td><button type="button" class="btn btn-danger"><a href="https://drive.google.com/file/d/1m0nh5zrNYy-xYD4_4q83UXuEtKT4W2lJ/view?usp=sharing"  target="_blank"><i class="icon ion-md-archive"></i>  Descargar</a></button></td>
+                  </tr>
+                  <th scope="row">7</th>
+                    <td>Yeimi Castaño</td>
+                    <td><button type="button" class="btn btn-danger"><a href="https://drive.google.com/file/d/11PgBMGFq_4DKZSZK3MyeTIyNCVH9ICqu/view?usp=sharing"  target="_blank"><i class="icon ion-md-archive"></i>  Descargar</a></button></td>
+                  </tr>
+                  <th scope="row">8</th>
+                    <td>Yeison Herrera</td>
+                    <td><button type="button" class="btn btn-danger"><a href="https://drive.google.com/file/d/1fyUWJzNRqQ13cfsHNNyJAyEvCJ-TC3Dw/view?usp=sharing"  target="_blank"><i class="icon ion-md-archive"></i>  Descargar</a></button></td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /Modal -->
+</body>
+</html>

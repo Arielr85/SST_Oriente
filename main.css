@@ -1,0 +1,7 @@
+.navbar {
+    background-image: linear-gradient(to right top, #397f36, #60965d, #86ae84, #acc5ac, #d4dcd4);
+}
+.modal .table a {
+    text-decoration: none;
+    color: white;
+}
